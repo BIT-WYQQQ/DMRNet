@@ -73,7 +73,7 @@ def main(args):
 
     split_point = int(len(data) * 2 / 3)
     data_train = data[:split_point]
-    eval_len = int(len(data[split_point:]) / 20)
+    eval_len = int(len(data[split_point:]) / 2)
     data_eval = data[split_point:split_point + eval_len]
     data_test = data[split_point + eval_len:]
 
