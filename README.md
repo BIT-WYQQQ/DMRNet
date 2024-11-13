@@ -50,7 +50,7 @@ python train_DMRNet.py --Test [--model_name DMRNet] [--resume_path Epoch_{}_JA_{
 
 ## Cite
 Please cite our paper if you use this code in your own work:
-```json
+```
 @inproceedings{shi2024dmrnet,
   title={DMRNet: Effective Network for Accurate Discharge Medication Recommendation},
   author={Shi, Jiyun and Wang, Yuqiao and Zhang, Chi and Luo, Zhaojing and Chai, Chengliang and Zhang, Meihui},
