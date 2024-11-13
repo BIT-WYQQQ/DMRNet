@@ -201,7 +201,7 @@ def main(args):
                 ))
 
         torch.save(model.state_dict(), open(os.path.join('saved', args.model_name, \
-            'Epoch_{}_JA_{:.4}_DDI_{:.4}.model'.format(epoch, ja, ddi_rate)), 'wb'))
+            'Epoch_{}_JA_{:.4}.model'.format(epoch, ja)), 'wb'))
 
         if best_ja < ja:
             best_epoch = epoch
